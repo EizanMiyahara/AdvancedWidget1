@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void addEditText(int jumlah) {
         llAnak.removeAllViews();
-        for (int i = 1; i <= jumlah; i++) {
+        for (int i = 1; i <= 5; i++) {
             View view = LayoutInflater.from(this).inflate(R.layout.layout_anak, llAnak, false);
             view.setTag("Anak" + i);
             llAnak.addView(view);
